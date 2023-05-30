@@ -2,12 +2,16 @@ button {
     background-color: #0c80f3;
     border: 6px solid #0ff166;
     border-radius: 6px;
+    width: 196px;
+    height: 196px;
+    margin: 0 auto;
 }
 
 .game-board {
     width: 600px;
     height: 600px;
     margin: 0 auto;
+    padding: 0 auto;
     background-color: #34495e;
     color: rgb(204, 8, 8);
     border: 6px solid #0b0d0f;
@@ -15,4 +19,8 @@ button {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
+}
+
+.grid-row {
+    border: 6px solid #ffff55
 }
